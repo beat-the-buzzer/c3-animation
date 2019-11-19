@@ -51,3 +51,7 @@
 2、熟练使用动画库，观察动画，得到更好的实现方案
 
 3、复杂动画的开发和实现
+
+#### transition的使用
+
+[https://github.com/beat-the-buzzer/c3-animation/transition](https://github.com/beat-the-buzzer/c3-animation/transiton)

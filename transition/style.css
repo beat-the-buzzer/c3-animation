@@ -1,0 +1,24 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: #000;
+}
+
+.demo-1 {
+   /* 属性名 过渡时间 时间函数 */
+  /* 时间函数 linear ease */
+  transition: width 2s linear 2s;
+}
+
+.demo-1:hover {
+ width: 500px;
+}
+
+
+.demo-2 {
+ transition: transform 1s ease-out;
+}
+
+.demo-2:hover {
+  transform: rotate(45deg);
+}
