@@ -54,4 +54,4 @@
 
 #### transition的使用
 
-[https://github.com/beat-the-buzzer/c3-animation/transition](https://github.com/beat-the-buzzer/c3-animation/transiton)
+[https://github.com/beat-the-buzzer/c3-animation/tree/master/transition](https://github.com/beat-the-buzzer/c3-animation/tree/master/transition)
