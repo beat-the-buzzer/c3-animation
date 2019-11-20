@@ -55,3 +55,8 @@
 #### transition的使用
 
 [https://github.com/beat-the-buzzer/c3-animation/tree/master/transition](https://github.com/beat-the-buzzer/c3-animation/tree/master/transition)
+
+#### animation的使用
+
+[https://github.com/beat-the-buzzer/c3-animation/tree/master/animation](https://github.com/beat-the-buzzer/c3-animation/tree/master/animation)
+

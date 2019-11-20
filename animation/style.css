@@ -1,0 +1,40 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: #000;
+}
+
+.demo-1 .cell {
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+
+.demo-1:hover .cell{
+  /* 时间函数 持续时间  速度函数 播放次数(infinity表示无穷) 播放方向  播放状态  是否停止*/
+  animation: move 2s linear 2 alternate forwards running;
+}
+
+@keyframes move{
+  100% {
+    transform: translateX(200px);
+  }
+}
+
+.demo-2 {
+  margin-top: 100px;
+  animation: jump 3s cubic-bezier(0.1, 0.25, 1, 0.25) infinite;
+  border-radius: 50%;
+}
+
+@keyframes jump{
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(400px);
+  }
+}
