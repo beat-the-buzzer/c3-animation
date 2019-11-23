@@ -75,3 +75,7 @@ ease-in-out: 动画以低速开始和结束
 
 ![https://gitee.com/beat-the-buzzer/pictures/raw/master/c3-animation/c3-animation-09.png](https://gitee.com/beat-the-buzzer/pictures/raw/master/c3-animation/c3-animation-09.png)
 
+最终运行效果：
+
+[https://beat-the-buzzer.github.io/c3-animation/](https://beat-the-buzzer.github.io/c3-animation/)
+
