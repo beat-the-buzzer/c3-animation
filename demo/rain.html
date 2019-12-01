@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>红包雨效果</title>
+    <link rel="stylesheet" href="./css/rain.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="yudi"></div>
+    </div>
+</body>
+<script src="./js/jquery.min.js"></script>
+<script>
+    var $content = $('.content');
+    var initNumber = 0;
+    for(var i = 0; i < 50; i++) {
+        var lefts = Math.floor(Math.random() * 5 + 2);
+        var delay = Math.floor(Math.random() * 50 + 2);
+        initNumber += lefts;
+        var $div = $('<div>').addClass('yudi').css({
+            left: initNumber + '%',
+            top: lefts + '%',
+            'animation-delay': (delay/10) + 's',
+        });
+        $content.append($div);
+    }
+</script>
+</html>
