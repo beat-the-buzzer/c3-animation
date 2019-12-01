@@ -60,3 +60,6 @@
 
 [https://github.com/beat-the-buzzer/c3-animation/tree/master/animation](https://github.com/beat-the-buzzer/c3-animation/tree/master/animation)
 
+#### Demo：红包雨效果
+
+[https://github.com/beat-the-buzzer/c3-animation/tree/master/demo](https://github.com/beat-the-buzzer/c3-animation/tree/master/demo)
